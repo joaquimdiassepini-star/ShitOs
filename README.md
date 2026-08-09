@@ -1,3 +1,8 @@
+
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Status](https://img.shields.io/badge/Status-In%20Development-orange)
+![License](https://img.shields.io/badge/License-Not%20Specified-lightgrey)
+
 # Sh!tOS
 
 Sh!tOS is an experimental operating system project developed in Python. The project started as a custom terminal and is being developed step by step toward a complete operating system.

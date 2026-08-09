@@ -45,6 +45,7 @@ The file system is still under development and will eventually be expanded with 
 
 # Project Structure
 
+```text
 ShitOS/
 │
 ├── main.py
@@ -53,7 +54,7 @@ ShitOS/
 ├── filesystem.py
 ├── filesystem.json
 └── README.md
-
+```
 # File Description
 # main.py
 

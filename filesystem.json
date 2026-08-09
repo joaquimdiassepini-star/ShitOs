@@ -1,0 +1,14 @@
+{
+    "Root": {
+        "jogos": {
+            "mods": {
+                "test.txt": null
+            }
+        },
+        "haha.txt": null,
+        "number": {
+            "aiaiaiai": null
+        },
+        "teste": {}
+    }
+}

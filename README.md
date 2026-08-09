@@ -46,7 +46,7 @@ The file system is still under development and will eventually be expanded with 
 # Project Structure
 
 ```text
-ShitOS/
+Sh!tOS/
 │
 ├── main.py
 ├── Kernel.py

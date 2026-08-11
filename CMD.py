@@ -11,7 +11,11 @@ from filesystem import (
     escrever_arquivo,
     ler_arquivo,
     fetch,
-    copiar_arquivo
+    copiar_arquivo,
+    renomear_arquivo,
+    eh_pasta,
+    eh_arquivo,
+    mover_arquivo,
 )
 
 from Kernel import inc
@@ -22,7 +26,7 @@ def Terminal():
         "exit - Sai do terminal",
         "help - Exibe esta mensagem de ajuda",
         "echo - Exibe o texto fornecido",
-        "cls - Limpa a tela do terminal"
+        "cls - Limpa a tela do terminal",
         "math - Realiza operações matemáticas básicas",
         "mkdir - Cria uma nova pasta",
         "touch - Cria um novo arquivo",
@@ -34,7 +38,9 @@ def Terminal():
         "cat - Lê o conteúdo de um arquivo",
         "pwd - Exibe o caminho do diretório atual",
         "fetch - Exibe informações do sistema",
-        "copy - Copia um arquivo para outro local"
+        "copy - Copia um arquivo para outro local",
+        "move - Move um arquivo para outro local",
+        "rename - Renomeia um arquivo",
         )
     while True:
         Comando = input(obter_caminho() + "> ")
@@ -141,6 +147,18 @@ def Terminal():
                     continue
                 
                 resultado = copiar_arquivo(comandoquebrado[1], comandoquebrado[2])
+                print(resultado)
+            case "rename":
+                if len(comandoquebrado) < 3:
+                    print("Uso: rename <arquivo_antigo> <arquivo_novo>")
+                    continue
+                resultado = renomear_arquivo(comandoquebrado[1], comandoquebrado[2])
+                print(resultado)
+            case "move":
+                if len(comandoquebrado) < 3:
+                    print("Uso: move <arquivo_origem> <arquivo_destino>")
+                    continue
+                resultado = mover_arquivo(comandoquebrado[1], comandoquebrado[2])
                 print(resultado)
             case _:
                 print("Comando não reconhecido.")

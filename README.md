@@ -75,7 +75,14 @@ This file will become more important as the project evolves toward a more comple
 Contains the custom command system used by the Sh!tOS terminal.
 
 It is responsible for processing and organizing terminal commands.
+# users.py
 
+Contains user levels.
+
+It is responsible for organizing all the allowed comands for each group.
+# processes.py
+
+It is responsible for organizing all the processes.
 # filesystem.py
 
 Contains the experimental file system functionality.

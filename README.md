@@ -9,7 +9,7 @@ Sh!tOS is an experimental operating system project developed in Python. The proj
 
 Sh!tOS is a personal project focused on learning programming, system development, and operating system concepts by building the system step by step.
 
-The project was originally called JoaquimOS and was later renamed to Sh!tOS.
+The project is originally called Sh!tOS.
 
 The current project is focused on creating the foundation of the operating system, including a custom terminal, command processing, and an experimental file system.
 

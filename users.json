@@ -1,0 +1,10 @@
+{
+    "root": {
+        "senha": "root",
+        "nivel": "admin"
+    },
+    "guest": {
+        "senha": "guest",
+        "nivel": "guest"
+    }
+}

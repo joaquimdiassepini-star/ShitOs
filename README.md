@@ -51,6 +51,8 @@ Sh!tOS/
 ├── main.py
 ├── Kernel.py
 ├── CMD.py
+├── users.py
+├── processes.py
 ├── filesystem.py
 ├── filesystem.json
 └── README.md
